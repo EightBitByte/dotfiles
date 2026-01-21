@@ -1,9 +1,9 @@
 SOURCE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SYMLINKS=(
-  "~/.bashrc"
-  "~/.config/hypr"
-  "~/.config/nvim"
-  "~/.config/waybar"
+  "$HOME/.bashrc"
+  "$HOME/.config/hypr"
+  "$HOME/.config/nvim"
+  "$HOME/.config/waybar"
   "/etc/default/grub"
 )
 
