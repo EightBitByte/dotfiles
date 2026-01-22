@@ -46,12 +46,15 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
+#
+# Disable systemd OSC context sequences for Kitty
+if [[ "$TERM" == "xterm-kitty" ]]; then
+    export SYSTEMD_OSC_CONTEXT=0
+fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source "/home/jamoy/.rover/env"
 
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'

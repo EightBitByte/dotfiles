@@ -1,0 +1,46 @@
+@define-color mantle #181825;
+@define-color text #cdd6f4;
+
+window {
+    margin: 0px;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 10px;
+    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    font-size: 13px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #f8f8f2;
+    background-color: @mantle;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: @text;
+}
+
+#entry:selected {
+    background-color: @mantle;
+    border-radius: 20px;
+}
+
+#text:selected {
+}
