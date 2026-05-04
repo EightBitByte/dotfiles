@@ -71,3 +71,7 @@ echo "                   ▀▀▀       ▀████▀                     
 echo ""
 echo "It is currently $(date '+%A, %B %d %Y at %I:%M %p!')"
 echo ""
+echo "Verse of the Day:"
+curl -s "https://beta.ourmanna.com/api/v1/get?format=text&order=daily" 2>/dev/null
+echo
+echo ""
