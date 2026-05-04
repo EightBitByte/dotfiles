@@ -13,4 +13,5 @@ require("lazy").setup({
   { import = "plugins.lualine" },
   { import = "plugins.nvim-tree" },
   { import = "plugins.virt-column" },
+  { import = "plugins.alpha" },
 })
