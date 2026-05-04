@@ -58,3 +58,16 @@ export NVM_DIR="$HOME/.nvm"
 
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+. "$HOME/.cargo/env"
+                                                               
+echo "   ▄▄▄  ▄▄▄                    ▄▄▄▄▄▄                       ▄▄"
+echo "  █▀██  ██                    █▀ ██                   █▄    ██"
+echo "    ██  ██                       ██                   ██    ██"
+echo "    ██████   ▄█▀█▄ ██ ██         ██ ▄▀▀█▄ ▄███▀ ▄███▄ ████▄ ██"
+echo "    ██  ██   ██▄█▀ ██▄██         ██ ▄█▀██ ██    ██ ██ ██ ██   "
+echo "  ▀██▀  ▀██▄▄▀█▄▄▄▄▄▀██▀ ▄       ██▄▀█▄██▄▀███▄▄▀███▀▄████▀ ██"
+echo "                     ██ ▄█   ▄   ██                           "
+echo "                   ▀▀▀       ▀████▀                           "
+echo ""
+echo "It is currently $(date '+%A, %B %d %Y at %I:%M %p!')"
+echo ""
